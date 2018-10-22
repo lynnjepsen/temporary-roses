@@ -10,8 +10,6 @@
   "author": "Lynn Mercier",
   "license": "MIT",
   "devDependencies": {
-    "@material/button": "^0.40.1",
-    "@material/ripple": "^0.40.1",
     "babel-core": "^6.26.3",
     "babel-loader": "^7.1.5",
     "babel-plugin-transform-object-assign": "^6.22.0",
@@ -23,5 +21,13 @@
     "sass-loader": "^7.1.0",
     "webpack": "^3.12.0",
     "webpack-dev-server": "^2.11.3"
+  },
+  "dependencies": {
+    "@material/button": "^0.40.1",
+    "@material/chips": "^0.40.1",
+    "@material/ripple": "^0.40.1",
+    "@material/textfield": "^0.40.1",
+    "@material/top-app-bar": "^0.40.1",
+    "@material/typography": "^0.40.1"
   }
 }

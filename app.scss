@@ -1,6 +1,39 @@
-@import "@material/button/mdc-button";
+@import '@material/typography/mdc-typography';
+@import '@material/top-app-bar/mdc-top-app-bar';
+@import '@material/chips/mdc-chips';
+@import '@material/textfield/mdc-text-field';
+@import '@material/button/mdc-button';
+@import '@material/ripple/mdc-ripple';
 
-.foo-button {
-  @include mdc-button-ink-color(teal);
-  @include mdc-states(teal);
+body {
+  margin: 0;
+}
+
+.message__subheader {
+  color: #616161;
+}
+
+.feedback-page {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.feedback-page__content {
+  max-width: 360px;
+  padding: 16px;
+}
+
+.feedback-logo {
+  width: 30px;
+  height: 30px;
+}
+
+.thoughts-text-field {
+  width: 100%;
+}
+
+.feedback-text-field__container {
+  margin: 48px 0;
+  padding: 0 24px;
 }
