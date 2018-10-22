@@ -1,0 +1,27 @@
+{
+  "name": "roses",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lynn Mercier",
+  "license": "MIT",
+  "devDependencies": {
+    "@material/button": "^0.40.1",
+    "@material/ripple": "^0.40.1",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-plugin-transform-object-assign": "^6.22.0",
+    "babel-preset-es2015": "^6.24.1",
+    "css-loader": "^1.0.0",
+    "extract-loader": "^3.0.0",
+    "file-loader": "^2.0.0",
+    "node-sass": "^4.9.4",
+    "sass-loader": "^7.1.0",
+    "webpack": "^3.12.0",
+    "webpack-dev-server": "^2.11.3"
+  }
+}
